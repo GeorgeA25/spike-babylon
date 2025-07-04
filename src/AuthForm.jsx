@@ -1,7 +1,6 @@
 // src/components/AuthForm.jsx
 import React, { useState } from "react";
 import {
-  getAuth,
   createUserWithEmailAndPassword,
   signInWithEmailAndPassword,
 } from "firebase/auth";
