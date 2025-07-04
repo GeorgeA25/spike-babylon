@@ -12,6 +12,7 @@
   "dependencies": {
     "@babylonjs/core": "^8.15.1",
     "@babylonjs/loaders": "^8.15.1",
+    "firebase": "^11.10.0",
     "react": "^19.1.0",
     "react-dom": "^19.1.0"
   },
