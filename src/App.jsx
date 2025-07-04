@@ -15,7 +15,7 @@
 // export default App;
 
 import React, { useEffect, useState } from "react";
-import { loginWithGoogle, logout, getCurrentUser } from "./firebaseAuth";
+import { loginWithGoogle, logout, getCurrentUser } from "../firebaseAuth";
 // import { firebaseConfig } from "./firebaseConfig"
 
 const App = () => {
