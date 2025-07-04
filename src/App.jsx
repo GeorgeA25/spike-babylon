@@ -14,8 +14,8 @@
 
 // export default App;
 
-import React, { useEffect, useState } from "react";
-import { loginWithGoogle, logout, getCurrentUser } from "../firebaseAuth";
+/*import React, { useEffect, useState } from "react";
+import { loginWithGoogle, logout, getCurrentUser } from "./firebaseAuth";
 // import { firebaseConfig } from "./firebaseConfig"
 
 const App = () => {
@@ -49,4 +49,18 @@ const App = () => {
     </div>
   );
 };
+export default App; */
+
+import React from "react";
+import AuthForm from "./AuthForm";
+
+const App = () => {
+  return (
+    <div>
+      <h1>Login / Register</h1>
+      <AuthForm />
+    </div>
+  );
+};
+
 export default App;
